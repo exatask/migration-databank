@@ -1,0 +1,68 @@
+################################################
+###############  .gitignore   ##################
+################################################
+
+################################################
+# Private keys
+#
+# Always ignore private keys from SSL key pairs
+################################################
+*.pem
+*.key
+*.pub
+
+################################################
+# Dependencies
+#
+# Always ignore dependencies like node_modules,
+# bower_components, packages etc
+################################################
+
+################################################
+# Environment
+#
+# Always ignore application environment details
+################################################
+application-*.properties
+log4j2-*.properties
+environment.*.ts
+webpack.config.*.js
+
+################################################
+# Logs / Caches / Compiled
+#
+# Always ignore application complied files, logs,
+# caches, and other temporary data
+################################################
+.gradle
+**/build
+**/bin
+**/out
+**/dist
+**/node_modules
+**/.angular/cache
+.tmp
+public
+*.log
+~$*
+
+################################################
+# Editors
+#
+# Always ignore editors configuration and files
+################################################
+*.iml
+.netbeans
+nbproject
+**/.idea
+.project
+.vscode/*
+*.code-workspace
+
+################################################
+# OS
+#
+# Always ignore OS generated files
+################################################
+.DS_Store
+Thumbs.db
