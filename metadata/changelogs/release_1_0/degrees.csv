@@ -1,0 +1,20 @@
+degree,code,level,abbreviation,specializations
+Secondary,secondary,HIGH_SCHOOL,SE,
+Senior Secondary,srsecondary,HIGH_SCHOOL,SSE,Medical|Non-Medical|Commerce|Humanities
+Bachelor of Arts,ba,GRADUATE,B.A.,English Literature|History|Economics|Political Science|Psychology|Sociology|Fine Arts|Philosophy|Hindi Literature|Journalism|Geography|Sanskrit|Music|Dance|Theatre|Mass Communication & Journalism
+Bachelor of Science,bsc,GRADUATE,B.Sc.,Physics|Chemistry|Biology|Mathematics|Computer Science|Information Technology|Zoology|Botany|Geology|Microbiology|Biochemistry|Statistics|Electronics|Environmental Science|Agriculture|Forestry|Nursing|Event Management |Data Science |Animation & Multimedia
+Bachelor of Commerce,bcom,GRADUATE,B.Com.,Accounting|Finance|Marketing|Management|Banking & Insurance|International Business|Accounting & Taxation|Actuarial Science
+Bachelor of Technology,btech,GRADUATE,B.Tech.,Civil Engineering|Mechanical Engineering|Electrical Engineering|Electronics & Communication Engineering|Computer Science Engineering|Information Technology|Chemical Engineering|Petroleum Engineering|Biotechnology|Aeronautical Engineering|Marine Engineering|Automobile Engineering|Artificial Intelligence |Cyber Security
+Master of Business Administration,mba,POST_GRADUATE,MBA,Marketing Management|Finance Management|Human Resource Management|Operations Management|Information Technology Management|International Business|Entrepreneurship|Healthcare Management|Family Business Management|Business Analytics
+Master of Arts,ma,POST_GRADUATE,M.A.,English Literature|History|Economics|Political Science|Psychology|Sociology|Fine Arts|Philosophy|Hindi Literature|Journalism|Geography|Sanskrit|Music|Dance|Theatre
+Master of Science,msc,POST_GRADUATE,M.Sc.,Physics|Chemistry|Biology|Mathematics|Computer Science|Information Technology|Zoology|Botany|Geology|Microbiology|Biochemistry|Statistics|Electronics|Environmental Science|Agriculture|Forestry
+Master of Commerce,mcom,POST_GRADUATE,M.Com.,Accounting|Finance|Marketing|Management|Banking & Insurance|International Business
+Master of Technology,mtech,POST_GRADUATE,M.Tech.,Civil Engineering|Mechanical Engineering|Electrical Engineering|Electronics & Communication Engineering|Computer Science Engineering|Information Technology|Chemical Engineering|Petroleum Engineering|Biotechnology|Aeronautical Engineering|Marine Engineering|Automobile Engineering|Artificial Intelligence |Cyber Security
+Law,llb,GRADUATE,LL.B.,Criminal Law|Civil Law|Constitutional Law|Corporate Law|Family Law|International Law|Environmental Law
+Medicine,mbbs,GRADUATE,M.B.B.S.,General Medicine|Surgery|Pediatrics|Gynecology & Obstetrics|Psychiatry|Dermatology|Anesthesiology|Radiology
+Dental Surgery,bds,GRADUATE,B.D.S.,
+Pharmacy,bpharm,GRADUATE,B.Pharm.,
+Physiotherapy,bpt,GRADUATE,B.P.T.,
+Hotel Management,bhm,GRADUATE,B.H.M.,
+Fashion Design,bfdes,GRADUATE,B.F.Des.,
+Bachelor of Business Administration,bba,GRADUATE,BBA,
