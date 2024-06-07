@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+</head>
+<body>
+<div th:fragment="content">
+  <table style="min-width: 600px; width: 80%; margin: 0 10%;">
+  <tr>
+    <td style="padding: 10px;">
+    <p style="padding-top: 10px">Hello <span th:text="${employee_firstName}"></span>,</p>
+    </td>
+  </tr>
+  <tr>
+    <td style="padding: 10px;">
+    <p>
+      Welcome <span th:text="${organization_name}"></span>, we are glad to have you on board!
+      </td>
+  </tr>
+  </table>
+</div>
+</body>
+</html>

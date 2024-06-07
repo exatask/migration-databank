@@ -1,0 +1,12 @@
+Hello [(${employee_firstName})],
+
+Welcome to ExaTask
+[# th:if="${employee_addedBy != null}"]
+  [(${employee_addedBy})] has added you to [(${organization_name})], and invited you to create your new login.
+[/]
+[# th:unless="${employee_addedBy != null}"]
+  We are glad to know that you want to associate your organization with ExaTask.
+[/]
+
+Please click on the button below, in order to setup your account and activate your new login:
+Activate Account: [[(@{${setPasswordUrl}})]]

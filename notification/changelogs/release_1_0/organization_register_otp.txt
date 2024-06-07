@@ -1,0 +1,8 @@
+Dear User,
+
+[(${otp})] is the One-Time Password (OTP) for your ExaTask Registration, as per your request.
+
+Please Note:
+OTP is valid for 30 minutes from the time you have generated the same, post which a new OTP will have to be generated.
+
+Do not share your OTP with anyone.

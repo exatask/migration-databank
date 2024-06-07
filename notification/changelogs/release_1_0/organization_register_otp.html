@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+</head>
+<body>
+<div th:fragment="content">
+  <table style="min-width: 600px; width: 80%; margin: 0 10%;">
+  <tr>
+    <td style="padding-left: 10px;">
+    <p>Dear User,</p>
+    </td>
+  </tr>
+  <tr>
+    <td style="padding-left: 10px;">
+    <p><b th:text="${otp}"></b> is the One-Time Password (OTP) for your ExaTask Registration, as per your request.</p>
+    </td>
+  </tr>
+  <tr>
+    <td style="padding-left: 10px;">
+    <p>
+      Please Note:<br />
+      OTP is valid for 30 minutes from the time you have generated the same, post which a new OTP will have to be generated.
+    </p>
+    </td>
+  </tr>
+  <tr>
+    <td style="padding-left: 10px;">
+    <p><b>Do not share your OTP with anyone.</b></p>
+    </td>
+  </tr>
+  </table>
+</div>
+</body>
+</html>

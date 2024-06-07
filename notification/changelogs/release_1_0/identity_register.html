@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+</head>
+<body>
+<div th:fragment="content">
+  <table style="min-width: 600px; width: 80%; margin-left: 10%;">
+  <tr>
+    <td style="padding: 10px;">
+    <p>Hello <span th:text="${employee_firstName}"></span>,</p>
+    </td>
+  </tr>
+  <tr>
+    <td style="padding: 10px;">
+    <p>Welcome to ExaTask</p>
+    <p>
+      <span th:if="${employee_addedBy != null}">
+        <span th:text="${employee_addedBy}"></span> has added you to <span th:text="${organization_name}"></span>, and invited you to create your new login.
+      </span>
+      <span th:unless="${employee_addedBy != null}">We are glad to know that you want to associate your organization with ExaTask.</span>
+    </p>
+    </td>
+  </tr>
+  <tr>
+    <td style="padding: 10px;">
+    <p>Please click on the button below, in order to setup your account and activate your new login:</p>
+    <a th:href="@{${setPasswordUrl}}" target="_blank" style="padding: 10px 30px; background: #4285f4; color: #fff;">Activate Account</a>
+    </td>
+  </tr>
+  </table>
+</div>
+</body>
+</html>

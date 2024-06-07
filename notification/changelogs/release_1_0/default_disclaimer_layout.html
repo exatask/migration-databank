@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head></head>
+<body>
+    <div>
+        <table style="min-width: 600px; width: 80%; margin: 0 10%;">
+          <tr>
+            <td style="text-align: left;">
+              <a th:href="@{${template_domain_app}}">
+                <img th:alt="${template_application_name}" th:src="@{${template_application_static}} + '/images/logo.png'" width="50" />
+              </a>
+            </td>
+            <td style="text-align: right;" th:if="${organization_logo != null}">
+              <a th:href="@{${organization_website ?: '#'}">
+                <img th:alt="${organization_name ?: ''}" th:src="@{${organization_logo}}" width="200" />
+              </a>
+            </td>
+          </tr>
+        </table>
+      </div>
+    <div th:replace="${content} :: content"></div>
+    <div>
+        <table style="min-width: 600px; width: 80%; margin: 0 10%;">
+        <tr>
+            <td style="padding: 10px;">
+            <p>
+                If you have any questions, we are here for you at <a th:href="@{${'mailto:' + template_contact_emailId}}" target="_blank" th:text="${template_contact_emailId}"></a>.
+            </p>
+            </td>
+        </tr>
+        </table>
+    </div>
+    <div>
+        <table style="min-width: 600px; width: 80%; margin: 0 10%;">
+        <tr>
+            <td style="padding: 10px">
+            <p>
+                Cheers!<br />
+                Team ExaTask
+            </p>
+            </td>
+        </tr>
+        </table>
+    </div>
+    <div>
+        <table style="min-width: 600px; width: 80%; margin: 0 10%;">
+          <tr>
+            <td>
+              <b style="text-transform: capitalize">Disclaimer:</b> This communication is confidential and privileged and is directed to and for the user on the addressee only. The recipient if not the addressee should not use this message if erroneously received, and use of this e-mail in any manner by anyone other than the addressee is unauthorized. The recipient acknowledges that ExaTask may be unable to exercise control or ensure or guarantee the integrity of the text of the email message and the text is not warranted as to completeness and accuracy. Before opening and accessing the attachment, if any, please check and scan for virus.
+            </td>
+          </tr>
+        </table>
+      </div>
+    <div>
+        <table style="min-width: 600px; width: 80%; margin: 0 10%; text-align: center;">
+        <tr>
+            <td th:text="${template_application_name}"></td>
+        </tr>
+        <tr>
+            <td th:text="${template_contact_emailId + ' | ' + template_domain_app}"></td>
+        </tr>
+        <tr>
+            <td th:text="${'&copy; ' + timestamp_year + ' ' + template_application_name}"></td>
+        </tr>
+        </table>
+    </div>
+</body>
+</html>
