@@ -1636,7 +1636,8 @@ Assam,IN,AS,state
 Bihar,IN,BR,state
 Chandigarh,IN,CH,territory
 Chhattisgarh,IN,CT,state
-Dadra and Nagar Haveli and Daman and Diu,IN,DH,territory
+Dadra and Nagar Haveli,IN,DN,territory
+Daman and Diu,IN,DH,territory
 Delhi,IN,DL,territory
 Goa,IN,GA,state
 Gujarat,IN,GJ,state
