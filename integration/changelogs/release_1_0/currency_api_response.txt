@@ -1,0 +1,13 @@
+{
+  "data": [
+    [# th:each="row, stats : ${data}"]
+    {
+      "code": "[(${row.value.code})]",
+      "value": [(${row.value.value})]
+    }
+    [# th:if="${stats.count != stats.size}"]
+    ,
+    [/]
+    [/]
+  ]
+}
