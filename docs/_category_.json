@@ -1,0 +1,8 @@
+{
+  "label": "Migration Databank",
+  "collapsible": true,
+  "link": {
+    "type": "generated-index",
+    "description": "Migration Databank related documentation."
+  }
+}
